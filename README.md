@@ -3,8 +3,7 @@
 # Table of Contents
 1. [ES6](#ES6)
     1. [var Vs let](#var-vs-let)
-    2. Indented item
-2. Fourth item
+    2. 
 
 ## ES6 <a name="ES6"></a>
 ### var Vs let <a name="var-vs-let"></a>
@@ -32,6 +31,21 @@
               console.log(i);
        ```
      * Here the console will display the values [0, 1, 2] and 3. With the var keyword, i is declared globally. So when i++ is executed, it updates the global variable.
+     * **let keyword does not follow this behavior:**
+     ```javascript
+        let printNumTwo;
+        for (let i = 0; i < 3; i++) {
+            if (i === 2) {
+                printNumTwo = function() {
+                    return i;
+                };
+            }
+        }
+        console.log(printNumTwo());
+        console.log(i);
+    ```
+    * Here the console will display the value 2, and an error that i is not defined.
+     
 
 3. Union Types Array
     * `let emptyMixedArr: (string | number)[]`
