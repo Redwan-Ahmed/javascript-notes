@@ -5,6 +5,7 @@
     1. [var Vs let](#var-vs-let)
     2. 
 
+
 ## ES6 <a name="ES6"></a>
 ### var Vs let <a name="var-vs-let"></a>
 1. Biggest problems with declaring variables with the var keyword is that you can overwrite variable declarations without an error.
@@ -46,16 +47,7 @@
         ```
     * Here the console will display the value 2, and an error that i is not defined.
      
-
-3. Union Types Array
-    * `let emptyMixedArr: (string | number)[]`
-        * NOTE: will need to wrap the union in brackets.
-        * This array accepts both types strings and numbers: `emptyMixedArr.push('only strings allowed', 1)`
-
-4. Any Type Array (Dynamic Type)
-    * `let anyArray: any[] = []`
-        * Can push any types inside this array: `anyArray.push(1, false, 'string')`
-
+     
 ### Objects
 * NOTE: With objects once we create an object (and declare their properties), we cannot add new properties.
 * NOTE: We cannot change the property type, BUT we can change thier values.
