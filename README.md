@@ -9,9 +9,11 @@
 ## ES6 <a name="ES6"></a>
 ### var Vs let <a name="var-vs-let"></a>
 1. Biggest problems with declaring variables with the var keyword is that you can overwrite variable declarations without an error.
-    * `` var camper = 'James';
+    * ```javascript 
+          var camper = 'James';
           var camper = 'David';
-          console.log(camper);``
+          console.log(camper);
+      ```
     - Here the console will display the string David.
     * If you were to replace var with let in the variable declarations of the code above, **the result would be an error**.
     * `` let camper = 'James';
