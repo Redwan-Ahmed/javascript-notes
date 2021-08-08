@@ -1,15 +1,10 @@
 <h1 align="center" style="font-size: 3em;">JavaScript Notes</h1>
 
 # Table of Contents
-<ol>
-<li>[ES6](#ES6)
-<ol>
-<li>[var Vs let](#var-vs-let)</li>
-<li>Indented item</li>
-</ol>
-</li>
-<li>Fourth item</li>
-</ol>
+1. [ES6](#ES6)
+    1. [var Vs let](#var-vs-let)
+    2. Indented item
+2. Fourth item
 
 ## ES6 <a name="ES6"></a>
 ### var Vs let <a name="var-vs-let"></a>
