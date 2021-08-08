@@ -4,14 +4,12 @@
 <ol>
 <li>[ES6](#ES6)
 <ol>
-<li>Indented item</li>
+<li>[var Vs let](#var-vs-let)</li>
 <li>Indented item</li>
 </ol>
 </li>
 <li>Fourth item</li>
 </ol>
-1. [ES6](#ES6)
-- [var Vs let](#var-vs-let)
 
 ## ES6 <a name="ES6"></a>
 ### var Vs let <a name="var-vs-let"></a>
