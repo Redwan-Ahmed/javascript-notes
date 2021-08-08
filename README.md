@@ -12,7 +12,7 @@
     * ``` var camper = 'James';
           var camper = 'David';
           console.log(camper);```
-          * Here the console will display the string David.
+    - Here the console will display the string David.
     * If you were to replace var with let in the variable declarations of the code above, **the result would be an error**.
     * ``` let camper = 'James';
           let camper = 'David';```
